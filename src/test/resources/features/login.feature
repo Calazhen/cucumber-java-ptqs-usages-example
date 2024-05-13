@@ -2,6 +2,11 @@
 
 Funcionalidade: Login
 
+#  User Story:
+#  Como usuário Admin e Henrique
+#  Eu quero logar na lojinha
+#  Para começar a utilzar minha conta
+
   @ExemploLogin
   Cenario: Realizar Login com sucesso
     Dado que esteja na pagina da login
@@ -22,3 +27,5 @@ Funcionalidade: Login
       | usuario          | senha          |
       | admin            | admin          |
       | Henrique No PTQS | Henriquenoptqs |
+
+

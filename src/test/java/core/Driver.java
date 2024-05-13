@@ -12,8 +12,8 @@ public class Driver {
     }
 
     public static void inicializaDriver() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
     }
 
 }

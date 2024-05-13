@@ -18,7 +18,6 @@ public class LoginSteps {
     @Before
     public void inicializaTeste() {
         Driver.inicializaDriver();
-
     }
 
     @Dado("que esteja na pagina da login")
